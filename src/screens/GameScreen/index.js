@@ -11,9 +11,7 @@ const GameScreen = ({ navigation }) => {
             // Alert.alert('The AI wins, try again');
             navigation.navigate('PlayAgainScreen')
         }
-        else if(coins === 1) {
-            Alert.alert('Human wins');
-        }
+       
     }, [coins])
 
 
@@ -73,7 +71,7 @@ const GameScreen = ({ navigation }) => {
 
     return (
         <View style={{
-            backgroundColor: 'pink',
+            // backgroundColor: 'pink',
             flex: 1,
             padding: wp(10),
             flexDirection: 'column',

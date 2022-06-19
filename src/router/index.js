@@ -13,7 +13,7 @@ export default function Router() {
     return (
         <NavigationContainer>
             <Stack.Navigator>
-                {/* <Stack.Screen name="LoginScreen" component={LoginScreen} /> */}
+                <Stack.Screen name="LoginScreen" component={LoginScreen} />
                 <Stack.Screen name="GameScreen" component={GameScreen} />
                 <Stack.Screen name="PlayAgainScreen" component={PlayAgainScreen} />
             </Stack.Navigator>
